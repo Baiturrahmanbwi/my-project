@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "postgresql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model user {
+  id       Int    @id @default(autoincrement())
+  username String
+  email    String
+}
+
+model dataAlmarhum {
+  id            Int    @id @default(autoincrement())
+  nama          String
+  tanggal_wafat DateTime @db.Date
+  tanggal_lahir DateTime @db.Date
+  rt            String
+  rw            String
+  bin           String
+}
+
+model dataJadwalSholat {
+  id      Int    @id @default(autoincrement())
+  tanggal DateTime @db.Date
+  imsyak  String
+  subuh   String
+  terbit  String
+  dzuhur  String
+  ashar   String
+  maghrib String
+  isya    String
+}
+
+model dataPetugasSholatJumat {
+  id         Int    @id @default(autoincrement())
+  tanggal    DateTime @db.Date
+  bilalAwal  String
+  bilalAkhir String
+  khotib     String
+  imam       String
+}
+
+model dataPengurusTakmir {
+  id         Int      @id @default(autoincrement())
+  nama       String
+  tanggal    DateTime @db.Date
+  alamat     String
+  jabatan    String
+  fototakmir String
+}
+
+model dataKegiatan {
+  id            Int      @id @default(autoincrement())
+  tanggal       DateTime @db.Date
+  title         String
+  waktu_mulai   String
+  waktu_selesai String
+  lokasi        String
+  deskripsi     String
+  fotokegiatan  String
+}

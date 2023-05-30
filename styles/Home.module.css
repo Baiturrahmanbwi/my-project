@@ -1,0 +1,447 @@
+.container {
+  padding-left: 7.5rem;
+  padding-right: 1rem;
+}
+
+.header{
+  background-color: #E3F6FF;
+  color: black;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: inherit;
+}
+
+.bDeskripsi{
+  text-align: justify;
+}
+
+.Link{
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.Link:hover{
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  transition: font-weight .2s;
+}
+.jdAbout{
+  margin: 0 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  color: black;
+}
+
+.dividerAbout{
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.isiAbout{
+  margin-top: 0 0em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+  font-size: 17px;
+  color: black;
+}
+
+.jdJumat{
+  background-color: rgb(13, 12, 83);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.tglJumat{
+  background-color: rgb(129, 128, 185);
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.tblJumat{
+  margin-top: 0.5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.action{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nTgl{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bAwal{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nAwal{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bAkhir{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nAkhir{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.khotib{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nKhotib{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.imam{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nImam{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.kegiatan{
+  
+margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: #E3F6FF;
+}
+
+.jdkegiatan{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.takmir{
+  min-height: 100vh;
+  background-color: #B0DAFF;
+}
+
+.jdtakmir{
+  /* background-color: rgb(13, 12, 83); */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.almarhum {
+  min-height: 100vh;
+  background-color: #B0DAFF;
+}
+
+.table{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.form{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.warning{
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.hadist{
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 3em;
+  color: black;
+  padding-right: 3em;
+}
+
+.arti{
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 3em;
+  padding-right: 3em;
+  color: black;
+
+}
+
+.arabic{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.jdalmarhum{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+  color: black;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.tbalmarhum{
+  margin: 0 0;
+  padding-top: 0rem;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 22px;
+}
+
+.sholat {
+  min-height: 100vh;
+  background-color: #B0DAFF;
+}
+
+.tablesholat{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.warningsholat{
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  /* margin: 0 0; */
+}
+
+.hadistsholat{
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+
+}
+
+.jdsholat{
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tbsholat{
+  margin-left: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sholatkota{
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+.keterangan{
+  margin-left: 1rem;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+
+}
+.visimisi {
+  min-height: 60vh;
+  padding: 2rem 14rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.judulvisi{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+.judulmisi{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+.isivisi{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+
+.isimisi{
+  align-items: justify;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 5px;
+  font-size: 18px;
+  font-style: normal;
+  color: black;
+  font-weight: 400;
+}
+
+.divider{
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.button{
+  background-color: #0074d9;
+  border-color: #0074d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s;
+}
+.button:hover,
+.button:active{
+  background-color: #0065bd;
+  border-color: #0065bd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+}
+
+.beforefooter{
+  display: flex;
+  background-color: #E3F6FF;
+  flex: 1;
+  padding: 2rem 0;
+  
+}
+
+
+.footer {
+  display: flex;
+  background-color: #E3F6FF;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #E3F6FF;
+  color: black  ;
+}
+
+.footerarti{
+  text-align: justify;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+
+  .visimisi {
+    padding: 0 0;
+    margin-top: 25px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .visimisi {
+    padding: 0 0;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
