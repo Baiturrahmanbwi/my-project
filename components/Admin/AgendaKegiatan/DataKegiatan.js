@@ -36,9 +36,9 @@ export default function TabelKegiatan() {
         <>
             <div className="container-xl mt-4">
                 <div className="row row-cols-2 row-cols-lg-3 g-4" style={{ marginLeft: "2rem" }}>
-                    {data.map((kegiatan => (
+                    {data.map((kegiatan,i => (
                         <div className="col" >
-                            <div className="card" style={{ width: '17rem', height: '22.2rem' }}>
+                            <div key={i} className="card" style={{ width: '17rem', height: '22.2rem' }}>
                                 <FotoKegiatan foto={kegiatan.fotokegiatan} />
                                 <div className="card-body">
                                     <h5 className="card-title"><b>{kegiatan.title}</b></h5>

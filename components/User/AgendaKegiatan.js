@@ -20,9 +20,9 @@ const AgendaKegiatan = () => {
                         Kegiatan
                     </div>
                     <div className='row row-cols-2 row-cols-lg-3 g-4' style={{ marginLeft: "4rem", marginRight:"2em" }}>
-                        {data.map((kegiatan) => (
+                        {data.map((kegiatan,i) => (
                             <div className='col'>
-                                <div className='card shadow-sm' style={{backgroundColor:"#E3F6FF", width: '17.1rem', height: '17rem' }}>
+                                <div key={i} className='card shadow-sm' style={{backgroundColor:"#E3F6FF", width: '17.1rem', height: '17rem' }}>
                                     <FotoKegiatan foto={kegiatan.fotokegiatan} />
                                     <div className="card-body text-center">
                                         <h5 className="card-text text-black fw-bold">{kegiatan.title}</h5>
